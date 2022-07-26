@@ -1,0 +1,31 @@
+{
+  "name": "amadeus-backend",
+  "version": "1.0.0",
+  "description": "Backend to amadeus react app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jvalenciac",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "helmet": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "moment-time": "^1.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "npm": "^8.13.2"
+  },
+  "devDependencies": {
+    "amadeus": "^6.0.0"
+  }
+}
